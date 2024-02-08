@@ -42,6 +42,26 @@ main{
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+i{
+    font-size: 200%;
+}
+.lists{
+    display: none;
+    padding: 3px;
+    font-size: 20px;
+    list-style: none;
+}
+.lists a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.lists a:hover{
+    color: white;
+}
+.lists-active{
+    display: block;
+}
 footer{
     margin-bottom: 10px;
 }
